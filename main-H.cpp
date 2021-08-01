@@ -185,7 +185,6 @@ bool ifDublication(string expression)
                 top = Stack.top();
                 Stack.pop();
             }
-            cout << elementsInside << endl;
             if(elementsInside <= 1) {
                 return 1;
             }
